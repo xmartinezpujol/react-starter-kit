@@ -4,14 +4,14 @@ Just a simple starter kit to create projects with React and Redux.
 
 ### What is included?
 
-⋅⋅*react
-⋅⋅*redux (+thunk & reselect)
-⋅⋅*glamorous
-⋅⋅*jest & enzyme (testing)
-⋅⋅*babel
-⋅⋅*webpack
-⋅⋅*css support
-⋅⋅*eslint (+airbnb styleguide)
+*react
+*redux (+thunk & reselect)
+*glamorous
+*jest & enzyme (testing)
+*babel
+*webpack
+*css support
+*eslint (+airbnb styleguide)
 
 ### Install
 Node/NPM required to install dependencies.
