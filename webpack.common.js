@@ -5,7 +5,6 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const paths = {
   DIST: path.resolve(__dirname, 'dist'),
   DEPLOY: path.resolve(__dirname, 'dist'),
-  // DEPLOY: path.resolve(__dirname, '../../app/src/AdminBundle/Resources/public/js/'),
   SRC: path.resolve(__dirname, 'src'),
 };
 
@@ -41,10 +40,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(paths.SRC, 'index.html'),
     }),
-    new ExtractTextPlugin('nightgraph.styles.css'),
+    new ExtractTextPlugin('app.styles.css'),
   ],
   output: {
-    filename: 'nightgraph_bundle.js',
+    filename: 'app_bundle.js',
     path: paths.DEPLOY,
     publicPath: '/',
   },

@@ -4,12 +4,7 @@ const common = require('./webpack.common.js');
 module.exports = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
-    port: 5000,
-    proxy: {
-      '/cms': {
-        target: 'http://localhost:80/app_dev.php/',
-      },
-    },
+    port: 3001,
     historyApiFallback: true,
     contentBase: './dist',
     open: true,
